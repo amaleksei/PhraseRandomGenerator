@@ -59,7 +59,7 @@
     "jest-cli": "^23.1.0",
     "react-test-renderer": "^16.4.0",
     "webpack": "^4.4.1",
-    "webpack-cli": "^2.0.13"
+    "webpack-cli": "^3.1.1"
   },
   "dependencies": {
     "css-loader": "^0.28.11",
