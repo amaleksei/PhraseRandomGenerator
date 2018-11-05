@@ -1,0 +1,53 @@
+{
+  "devices": [{
+    "name": "Проектор BENQ MP670",
+    "serial-number": "AAA0000000102",
+    "accession_number": "",
+    "year": 2010,
+    "country": "Korea",
+    "manufactory": "OMSUNG CO., LTD"
+  }, {
+    "name": "Воздухоочиститель",
+    "serial-number": "AAA0000000104",
+    "accession_number": "",
+    "year": 2010,
+    "country": "Korea",
+    "manufactory": "OMSUNG CO., LTD"
+  }, {
+    "name": "Воздухоочиститель",
+    "serial-number": "AAA0000000105",
+    "accession_number": "",
+    "year": 2010,
+    "country": "Korea",
+    "manufactory": "OMSUNG CO., LTD"
+  }, {
+    "name": "Воздухоочиститель",
+    "serial-number": "AAA0000000106",
+    "accession_number": "",
+    "year": 2010,
+    "country": "Korea",
+    "manufactory": "OMSUNG CO., LTD"
+  }, {
+    "name": "Воздухоочиститель",
+    "serial-number": "AAA0000000107",
+    "accession_number": "",
+    "year": 2010,
+    "country": "Korea",
+    "manufactory": "OMSUNG CO., LTD"
+  }, {
+    "name": "Воздухоочиститель",
+    "serial-number": "AAA0000000108",
+    "accession_number": "",
+    "year": 2010,
+    "country": "Korea",
+    "manufactory": "OMSUNG CO., LTD"
+  }, {
+    "name": "Воздухоочиститель",
+    "serial-number": "AAA0000000109",
+    "accession_number": "",
+    "year": 2010,
+    "country": "Korea",
+    "manufactory": "OMSUNG CO., LTD"
+  }
+  ]
+}

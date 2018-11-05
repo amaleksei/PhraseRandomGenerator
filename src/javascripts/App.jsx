@@ -1,18 +1,16 @@
 // @flow
 
 import React from 'react';
+import Generator from './Generator';
 
 function App() {
   return (
     <div>
-      <div className="hello">
-        <span>Hello webpack!</span>
-      </div>
-      <div className="description">
-        <span>Boilerplate for a Webpack and React</span>
-      </div>
-      <div className="image-insert">
-        <img alt="" src="./assets/images/test-image.gif" />
+      <header>
+        <span>logo</span>
+      </header>
+      <div className="table">
+        <Generator />
       </div>
     </div>
   );
