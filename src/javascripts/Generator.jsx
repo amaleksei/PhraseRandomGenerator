@@ -1,7 +1,6 @@
 // @flow
 
 import React from 'react';
-import { uniqueId } from 'lodash';
 
 class Generator extends React.Component {
   constructor(props) {
@@ -25,7 +24,9 @@ class Generator extends React.Component {
   }
 
   handleSubmit(event) {
-    alert('A name was submitted1: ' + this.state.value1 + ' A name was submitted2: ' + this.state.value2 + ' A name was submitted3: ' + this.state.value3);    
+    alert(`Value1:${this.state.value1}`);
+    alert(`Value2:${this.state.value2}`);
+    alert(`Value3:${this.state.value3}`);
     event.preventDefault();
   }
 
@@ -43,27 +44,27 @@ class Generator extends React.Component {
 
   render() {
     return (
-    <div>
-      <h2>Форма создания полей для дефектной ведомости</h2>
-      <form onSubmit={this.handleSubmit}>
-        <label>Поле 1
-          <br/>
-        <input type="text" value={this.state.value1} onChange={this.handleChange} />
-        </label>
-        <br/>
-         <label>Поле 2
-          <br/>
-        <input type="text" value={this.state.value2} onChange={this.handleField2} />
-        </label>
-        <br/>
-        <label>Поле 3
-          <br/>
-        <input type="text" value={this.state.value3} onChange={this.handleField3} />
-        </label>
-        <br/>
-        <input type="submit" value="Сгенерировать" />
-      </form>
-    </div>
+      <div>
+        <h2>Форма создания полей для дефектной ведомости</h2>
+        <form onSubmit={this.handleSubmit}>
+          <label>Поле 1
+            <br />
+            <input type="text" value={this.state.value1} onChange={this.handleChange} />
+          </label>
+          <br />
+          <label>Поле 2
+            <br />
+            <input type="text" value={this.state.value2} onChange={this.handleField2} />
+          </label>
+          <br />
+          <label>Поле 3
+            <br />
+            <input type="text" value={this.state.value3} onChange={this.handleField3} />
+          </label>
+          <br />
+          <input type="submit" value="Сгенерировать" />
+        </form>
+      </div>
     );
   }
 }
